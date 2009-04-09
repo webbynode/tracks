@@ -6,5 +6,5 @@ cp config/database.yml.tmpl config/database.yml
 mkdir log
 chown www-data log
 
-sed -i 's/salt: "change-me"/salt: "webbynode-salt-change-me"/' config/site.yml
-sed -i 's/database: .*/database: $WC_APP_NAME/' config/database.yml
+sed -i "s/change-me/webbynode-salt-change-me/" config/site.yml
+sed -i "s/database: .*/database: $WC_APP_NAME/" config/database.yml
