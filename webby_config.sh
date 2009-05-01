@@ -1,3 +1,4 @@
+sudo gem install rails --version=2.2.2 --no-rdoc --no-ri
 sudo gem install RedCloth --no-ri --no-rdoc
 
 cp config/site.yml.tmpl config/site.yml
